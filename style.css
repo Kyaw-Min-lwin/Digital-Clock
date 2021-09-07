@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     /* background */
-    background: url(./backgrond.jpg) no-repeat;
+    background: url(./background.jpg) no-repeat;
     background-color: hsl(180, 100%, 50%);
     background-blend-mode: luminosity;
     background-size: 100vw 100vh;
