@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    /* background */
+    background: url(./backgrond.jpg) no-repeat;
+    background-color: hsl(180, 100%, 50%);
+    background-blend-mode: luminosity;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    /* centering the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font related stuffs */
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+}
+
+div {
+    width: 60%;
+    max-width: 725px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 3rem 3rem;
+    border-radius: 25px;
+}
+
+.week {
+    font-size: 1rem;
+    word-spacing: 1rem;
+    color: hsl(180, 100%, 30%);
+}
+
+@media (max-width:725px) {
+    div {
+        font-size: 2rem;
+        width: 100%;
+    }
+}
